@@ -1,6 +1,9 @@
 <% @songs.each do |song| %>
+<div class ="booyah-box col-xs-10 col-xs-offset-1" >
     <h1><%= link_to song.name, root_path(song) %></h1>
     <p><%= song.artist %></p>
     <p><%= song.album %></p>
     <p><%= song.genre %></p>
+</div>
 <% end %>
+
