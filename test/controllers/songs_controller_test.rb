@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MypagesControllerTest < ActionController::TestCase
+class SongsControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

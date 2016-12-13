@@ -1,5 +1,5 @@
 NomsterQuiz1::Application.routes.draw do
-  root 'mypages#index'
+  root 'songs#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
