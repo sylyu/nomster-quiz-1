@@ -1,1 +1,6 @@
-<h1><%= @songs.inspect %></h1>
+<% @songs.each do |song| %>
+    <h1><%= link_to song.name, root_path(song) %></h1>
+    <p><%= song.artist %></p>
+    <p><%= song.album %></p>
+    <p><%= song.genre %></p>
+<% end %>

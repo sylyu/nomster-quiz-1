@@ -1,0 +1,11 @@
+<div>  
+  <h1>Enter Your Song Details</h1>
+  <%= simple_form_for @song do |f| %>
+    <%= f.input :name %>
+    <%= f.input :artist %>
+    <%= f.input :album %>
+    <%= f.input :genre %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
